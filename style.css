@@ -1,129 +1,83 @@
-body {
-  background-color: #f4f9ff;
-  font-family: Arial;
-  margin: 20px;
-}
+    body {
+      background-color: #f4f9ff;
+      font-family: Arial;
+      margin: 20px;
+    }
 
-h1 {
-  color: white;
-  text-align: center;
-}
+    h1 {
+      color: white;
+      text-align: center;
+    }
 
-h2 {
-  color: #0077b6;
-}
+    h2 {
+      color: #0077b6;
+    }
 
-p {
-  color: #444444;
-}
+    p {
+      color: #444444;
+    }
 
-.kotak-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
+    .kotak {
+      background-color: white;
+      border: 2px solid #90e0ef;
+      padding: 15px;
+      margin: 10px;
+      width: 250px;
+      display: inline-block;
+      vertical-align: top;
+    }
 
-.kotak {
-  background-color: white;
-  border: 2px solid #90e0ef;
-  padding: 15px;
-  margin: 10px;
-  width: 250px;
-}
+    .kotak img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
 
-.kotak img {
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
-}
+    .tombol {
+      background-color: #0096c7;
+      color: white;
+      padding: 8px 15px;
+      border: none;
+      cursor: pointer;
+    }
 
-.tombol {
-  background-color: #0096c7;
-  color: white;
-  padding: 8px 15px;
-  border: none;
-  cursor: pointer;
-}
+    .tombol:hover {
+      background-color: #0077b6;
+    }
 
-.tombol:hover {
-  background-color: #0077b6;
-}
+    #header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
 
-#header {
-  background-color: #0077b6;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
+    #footer {
+      background-color: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
 
-#header p {
-  color: white;
-}
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 10px;
+    }
 
-#header a {
-  color: #90e0ef;
-}
+    table, th, td {
+      border: 1px solid #90e0ef;
+    }
 
-#footer {
-  background-color: #0077b6;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
-}
+    th {
+      background-color: #0096c7;
+      color: white;
+      padding: 8px;
+    }
 
-.tabel-wrapper {
-  overflow-x: auto;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-top: 10px;
-  min-width: 400px;
-}
-
-table, th, td {
-  border: 1px solid #90e0ef;
-}
-
-th {
-  background-color: #0096c7;
-  color: white;
-  padding: 8px;
-}
-
-td {
-  padding: 8px;
-  background-color: white;
-}
-
-/* ===== KHUSUS HP ===== */
-@media (max-width: 600px) {
-
-  body {
-    margin: 10px;
-  }
-
-  h1 {
-    font-size: 20px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  .kotak {
-    width: 100%;
-    margin: 10px 0;
-  }
-
-  .kotak img {
-    height: 200px;
-  }
-
-  .tombol {
-    width: 100%;
-    padding: 10px;
-  }
-
-}
+    td {
+      padding: 8px;
+      background-color: white;
+    }
+  
